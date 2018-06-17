@@ -15,6 +15,7 @@ alias gus='git reset HEAD'
 alias gpristine='git reset --hard && git clean -dfx'
 alias gclean='git clean -fd'
 alias gm="git merge"
+alias gmv='git mv'
 alias g='git'
 alias get='git'
 alias gst='git status'
@@ -29,6 +30,7 @@ alias gup='git fetch && git rebase'
 alias gp='git push'
 alias gpo='git push origin'
 alias gpu='git push --set-upstream'
+alias gpuo='git push --set-upstream origin'
 alias gpom='git push origin master'
 alias gr='git remote'
 alias grv='git remote -v'
@@ -38,11 +40,14 @@ alias gdv='git diff -w "$@" | vim -R -'
 alias gc='git commit -v'
 alias gca='git commit -v -a'
 alias gcm='git commit -v -m'
+alias gcam="git commit -v -am"
 alias gci='git commit --interactive'
 alias gb='git branch'
 alias gba='git branch -a'
 alias gbt='git branch --track'
-alias gmv='git branch -m'
+alias gbm='git branch -m'
+alias gbd='git branch -d'
+alias gbD='git branch -D'
 alias gcount='git shortlog -sn'
 alias gcp='git cherry-pick'
 alias gco='git checkout'
@@ -57,7 +62,7 @@ alias gll='git log --graph --pretty=oneline --abbrev-commit'
 alias gg="git log --graph --pretty=format:'%C(bold)%h%Creset%C(magenta)%d%Creset %s %C(yellow)<%an> %C(cyan)(%cr)%Creset' --abbrev-commit --date=relative"
 alias ggs="gg --stat"
 alias gsl="git shortlog -sn"
-alias gw="git whatchanged"
+alias gwc="git whatchanged"
 alias gt="git tag"
 alias gta="git tag -a"
 alias gtd="git tag -d"
@@ -68,10 +73,10 @@ alias gnew="git log HEAD@{1}..HEAD@{0}"
 # Add uncommitted and unstaged changes to the last commit
 alias gcaa="git commit -a --amend -C HEAD"
 alias ggui="git gui"
-alias gcam="git commit -am"
 alias gcsam="git commit -S -am"
 alias gstd="git stash drop"
 alias gstl="git stash list"
+alias gh='cd "$(git rev-parse --show-toplevel)"'
 
 case $OSTYPE in
   darwin*)

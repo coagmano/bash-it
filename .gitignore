@@ -13,3 +13,6 @@ plugins/custom.plugins.bash
 bats
 .idea
 local.*.bash
+*.sublime-workspace
+*.sublime-project
+enabled/*
