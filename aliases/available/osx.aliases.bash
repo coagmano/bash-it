@@ -22,6 +22,9 @@ alias mou='open -a Mou'
 if [ -s /usr/bin/firefox ] ; then
   unalias firefox
 fi
+if [ -s /usr/bin/subl ] ; then
+  unalias subl
+fi
 
 # Requires growlnotify, which can be found in the Growl DMG under "Extras"
 alias grnot='growlnotify -s -t Terminal -m "Done"'
