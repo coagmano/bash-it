@@ -1,7 +1,7 @@
 .atom-build.json
 */enabled/*
 .DS_Store
-custom/*
+# custom/* # Include in local repo
 !custom/example.bash
 .rvmrc
 aliases/custom.aliases.bash
@@ -12,6 +12,7 @@ plugins/custom.plugins.bash
 .*.un~
 bats
 .idea
+local.*.bash
 *.sublime-workspace
 *.sublime-project
 enabled/*
