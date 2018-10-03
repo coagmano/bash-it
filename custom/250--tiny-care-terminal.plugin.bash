@@ -39,11 +39,11 @@ export TTC_UPDATE_INTERVAL=20
 # Turn off terminal title
 export TTC_TERMINAL_TITLE=false
 
-# Twitter api keys
-export TTC_CONSUMER_KEY='K3Qq6LZ4xY7a8PJXKjq6uJeCH'
-export TTC_CONSUMER_SECRET='YV3LptwMejbbLIa4fhtsGQMkma0ToH9CQ6yH75P1Rz2T0PYErl'
-export TTC_ACCESS_TOKEN='7904622-rqFKgVjsR7D6QUdDKlCZ9jxWKteh3pOi4o1MqLSXsN'
-export TTC_ACCESS_TOKEN_SECRET='7lpT5DUh0Hi0A2vYIVqb0PTOQx2m74rLhFBQRQaWOWzhf'
+# Twitter api keys - Set these in your .bash_profile
+# export TTC_CONSUMER_KEY=''
+# export TTC_CONSUMER_SECRET=''
+# export TTC_ACCESS_TOKEN=''
+# export TTC_ACCESS_TOKEN_SECRET=''
 
 # Note: in tiny-terminal-care < 1.0.7, the recommended variables for the Twitter
 # API keys were the ones before. As of 1.0.8, they are deprecated

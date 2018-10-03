@@ -3,9 +3,6 @@ about-alias 'custom aliases'
 
 alias sudo='sudo '
 
-alias m="meteor"
-alias mn="meteor npm"
-
 alias mkdir="mkdir -pv"
 alias wget="wget -c"
 
