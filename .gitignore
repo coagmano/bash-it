@@ -16,3 +16,4 @@ local.*.bash
 *.sublime-workspace
 *.sublime-project
 enabled/*
+tmp/
